@@ -1,0 +1,11 @@
+{
+  "name": "drawfee-roulette",
+  "profile": "personal",
+  "type": "static",
+  "static": {
+    "dir": "public"
+  },
+  "regions": [
+    "us-west-2"
+  ]
+}

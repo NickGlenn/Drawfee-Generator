@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+  font-family: "Riffic";
+    src:  url("font/Riffic.ttf.woff") format("woff"),
+    url("font/Riffic.ttf.svg#Riffic") format("svg"),
+    url("font/Riffic.ttf.eot"),
+    url("font/Riffic.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: "Riffic", Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.Header #logo {
+  display: block;
+  margin: 2em auto;
+  width: (366/16em);
+}
+
+.Words {
+  display: block;
+  margin: 0 auto;
+  padding: 2em 0;
+  max-width: (850/(16*3)em);
+  font-size: 3em;
+  color: #D21E31;
+
+  &.isRolling {
+    color: #888;
+
+    &.onWord1 {
+      #word_1 {
+        color: #D21E31;
+      }
+    }
+
+    &.onWord2 {
+      #word_1,
+      #word_2 {
+        color: #D21E31;
+      }
+    }
+
+    &.onWord3 {
+      #word_1,
+      #word_2,
+      #word_3 {
+        color: #D21E31;
+      }
+    }
+
+  }
+
+}
+
+// .Words-Word {
+//   float: left;
+//   padding: 0 1em;
+// }
+
+#roll {
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em 1em;
+  font: inherit;
+  font-size: 1.5em;
+  background: #D21E31;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:disabled {
+    display: none;
+  }
+}
+
+.Footer {
+  margin: 3em auto;
+  max-width: (850/(16*1.5)em);
+  font-size: 1.5em;
+  text-align: center;
+}
