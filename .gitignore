@@ -1,0 +1,6 @@
+node_modules/
+.rpt2_cache/
+public/*.css
+public/*.js
+public/*.map
+**/*.log
