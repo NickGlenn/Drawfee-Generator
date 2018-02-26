@@ -77,4 +77,4 @@ btn.addEventListener("click", roll);
 
 // set the odds
 var allCount = (firstWords.length * secondWords.length * thirdWords.length);
-odds.innerText = `There are a total of ${allCount} possibilitites.`;
+odds.innerText = `There are a total of ${allCount} possibilities.`;
