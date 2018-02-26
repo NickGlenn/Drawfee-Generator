@@ -7,28 +7,37 @@ export default [
   "cougar",
   "bear",
   "t-rex",
-  "bunny",
   "stoat",
   "ferret",
   "badger",
+  "doggo",
+  "puppo",
 
   // bugs
   "spider",
   "scorpion",
-  "dragonfly",
 
   // foods
   "hamburger",
   "hot dog",
-  "almond boy",
   "anthropomorphic peanut",
+
+  // household objects
+  "brave little toaster",
+  "sponge boy",
 
   // people
   "obese man",
   "king",
   "queen",
 
+  // sci-fi
+  "robot",
+  "android",
+  "cyborg",
+
   // mythical
+  "bird-person",
   "wizard",
   "hobbit",
   "monster",
@@ -48,5 +57,6 @@ export default [
   // vehicles
   "talking train",
   "singing plane",
+  "living spacecraft",
 
 ];

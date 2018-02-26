@@ -57,6 +57,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+  padding: 0.25em 0.25em 0;
+  color: #D21E31;
+  text-decoration: none;
+  border-radius: 2px;
+
+  &:hover {
+    background: #D21E31;
+    color: #fff;
+  }
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -72,6 +83,7 @@ table {
   display: block;
   margin: 0 auto;
   padding: 2em 0;
+  height: 5em;
   max-width: (850/(16*3)em);
   font-size: 3em;
   color: #D21E31;
@@ -129,6 +141,12 @@ table {
 .Footer {
   margin: 3em auto;
   max-width: (850/(16*1.5)em);
-  font-size: 1.5em;
+  line-height: 1.45;
   text-align: center;
+
+  #odds {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+
 }

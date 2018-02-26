@@ -26,5 +26,10 @@ export default [
   "A disfigured",
   "A crippled",
   "A broken",
+  "A wealthy",
+  "A homeless",
+  "A sick",
+  "A dying",
+  "A demented",
 
 ];
