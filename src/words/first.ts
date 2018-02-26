@@ -33,4 +33,6 @@ export default [
   "A radical",
   "An extreme",
   "A tubular",
+  "A lazy",
+  "A snazzy",
 ];

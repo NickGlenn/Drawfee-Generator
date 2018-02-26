@@ -14,10 +14,14 @@ export default [
   "puppo",
   "girl squirrel",
   "koy boy",
+  "gopher",
+  "penguin",
+  "sloth",
 
   // bugs
   "spider",
   "scorpion",
+  "ant",
 
   // foods
   "hamburger",
@@ -27,6 +31,7 @@ export default [
   // cartoons
   "brave little toaster",
   "sponge boy",
+  "Dragonball Z character",
 
   // people
   "baby",
@@ -50,6 +55,7 @@ export default [
   "ghost",
   "orc",
   "goblin",
+  "monster",
 
   // historical
   "historical figure",
