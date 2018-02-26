@@ -19,7 +19,7 @@ export default [
   "The majestic",
   "The worst",
   "The best",
-  "The royal",
+  "A royal",
 
   // situational
   "A mutated",
@@ -31,5 +31,6 @@ export default [
   "A sick",
   "A dying",
   "A demented",
+  "A big, red",
 
 ];
