@@ -2,10 +2,19 @@
   "name": "drawfee-roulette",
   "profile": "personal",
   "type": "static",
+  "hooks": {
+    "build": "npm run build"
+  },
   "static": {
     "dir": "public"
   },
   "regions": [
     "us-west-2"
-  ]
+  ],
+  "production": {
+    "domain": "drawfee-generator.com"
+  },
+  "staging": {
+    "domain": "staging.drawfee-generator.com"
+  }
 }
