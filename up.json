@@ -3,7 +3,7 @@
   "profile": "personal",
   "type": "static",
   "hooks": {
-    "build": "npm run build"
+    "build": "npm run build:scripts && npm run build:styles"
   },
   "static": {
     "dir": "public"
@@ -11,10 +11,12 @@
   "regions": [
     "us-west-2"
   ],
-  "production": {
-    "domain": "drawfee-generator.com"
-  },
-  "staging": {
-    "domain": "staging.drawfee-generator.com"
+  "stages": {
+    "production": {
+      "domain": "drawfee-generator.com"
+    },
+    "staging": {
+      "domain": "staging.drawfee-generator.com"
+    }
   }
 }
