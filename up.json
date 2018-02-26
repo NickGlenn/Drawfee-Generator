@@ -11,6 +11,11 @@
   "regions": [
     "us-west-2"
   ],
+  "lambda": {
+    "warm": true,
+    "warm_count": 1,
+    "warm_rate": "30m"
+  },
   "stages": {
     "production": {
       "domain": "drawfee-generator.com"
