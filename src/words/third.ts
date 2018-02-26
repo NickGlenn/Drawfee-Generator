@@ -58,4 +58,8 @@ export default [
   "that won't stop talking",
   "flexing their muscles and showin off their sweet, sweet bod",
   "going on vacation but it's awful",
+  "acting out some terrible Harry Potter fan-fiction that they wrote",
+  "with comically large hands and/or feet",
+  "ruining absoluyely everything for everyone",
+  "listening to MACINTOSH PLUS - リサフランク420 / 現代のコンピュー",
 ];

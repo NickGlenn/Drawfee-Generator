@@ -32,6 +32,7 @@ export default [
   "brave little toaster",
   "sponge boy",
   "Dragonball Z character",
+  "Sonic OC",
 
   // people
   "baby",
