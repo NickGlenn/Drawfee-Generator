@@ -12,6 +12,8 @@ export default [
   "badger",
   "doggo",
   "puppo",
+  "girl squirrel",
+  "koy boy",
 
   // bugs
   "spider",
@@ -22,12 +24,14 @@ export default [
   "hot dog",
   "anthropomorphic peanut",
 
-  // household objects
+  // cartoons
   "brave little toaster",
   "sponge boy",
 
   // people
-  "obese man",
+  "baby",
+  "politician",
+  "chef",
   "king",
   "queen",
 
@@ -48,6 +52,7 @@ export default [
   "goblin",
 
   // historical
+  "historical figure",
   "pirate",
   "knight",
   "caveman",

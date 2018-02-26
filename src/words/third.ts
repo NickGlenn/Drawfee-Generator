@@ -50,4 +50,12 @@ export default [
   "as a 1920s cartoon character",
   "doing the Macarena",
   "performing magic tricks for adults",
+  "livin' la vida loca",
+  "drawing innapropriate pictures as a form of vandalism",
+  "playing a VR game while throwing up everywhere",
+  "cheating at soccer",
+  "absolutely failing at being cool",
+  "that won't stop talking",
+  "flexing their muscles and showin off their sweet, sweet bod",
+  "going on vacation but it's awful",
 ];

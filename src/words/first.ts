@@ -1,6 +1,4 @@
 export default [
-
-  // emotion
   "An angry",
   "A slightly agitated",
   "A woeful",
@@ -11,8 +9,6 @@ export default [
   "An overlay happy",
   "A miserable",
   "A disgruntled",
-
-  // title
   "A grand",
   "A wonderful",
   "A whimsical",
@@ -20,8 +16,6 @@ export default [
   "The worst",
   "The best",
   "A royal",
-
-  // situational
   "A mutated",
   "A disfigured",
   "A crippled",
@@ -32,5 +26,11 @@ export default [
   "A dying",
   "A demented",
   "A big, red",
-
+  "An awkward",
+  "A busty",
+  "A chubby",
+  "An innapropriately dressed",
+  "A radical",
+  "An extreme",
+  "A tubular",
 ];
