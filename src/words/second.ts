@@ -1,6 +1,4 @@
 export default [
-
-  // animals
   "otter",
   "weasel",
   "lion",
@@ -17,36 +15,28 @@ export default [
   "gopher",
   "penguin",
   "sloth",
-
-  // bugs
   "spider",
   "scorpion",
   "ant",
-
-  // foods
+  "flea",
   "hamburger",
   "hot dog",
   "anthropomorphic peanut",
-
-  // cartoons
   "brave little toaster",
   "sponge boy",
   "Dragonball Z character",
   "Sonic OC",
-
-  // people
   "baby",
   "politician",
   "chef",
   "king",
   "queen",
-
-  // sci-fi
+  "criminal",
+  "thief",
   "robot",
   "android",
   "cyborg",
-
-  // mythical
+  "demogorgon",
   "bird-person",
   "wizard",
   "hobbit",
@@ -57,18 +47,24 @@ export default [
   "orc",
   "goblin",
   "monster",
-
-  // historical
+  "dragon",
+  "gelfling",
+  "skeksi",
   "historical figure",
   "pirate",
   "knight",
   "caveman",
   "ninja",
   "samurai",
-
-  // vehicles
   "talking train",
   "singing plane",
   "living spacecraft",
-
+  "toy",
+  "Furby",
+  "Teddy Ruxpin",
+  "Transformer",
+  "parrot",
+  "zombie",
+  "vampire",
+  "werewolf",
 ];

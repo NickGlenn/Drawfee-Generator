@@ -33,7 +33,7 @@ function randomizeWords(current = 0) {
   }
 
   if (current < 3) {
-    word3.innerText = pickRandom(thirdWords);
+    word3.innerText = pickRandom(thirdWords) + ".";
   }
 }
 
