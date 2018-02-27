@@ -11,7 +11,7 @@ export default [
   "doggo",
   "puppo",
   "girl squirrel",
-  "koy boy",
+  "koi boy",
   "gopher",
   "penguin",
   "sloth",
