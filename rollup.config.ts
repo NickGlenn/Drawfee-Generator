@@ -1,10 +1,13 @@
 import config from "@nickglenn/frontend-config";
 
 module.exports = config({
-  input: "./src/index.tsx",
+  input: {
+    v2: "./src/v2/index.tsx",
+    v1: "./src/v1/index.ts",
+  },
   output: {
-    file: "./public/app.js",
-    name: "DrawfeeGen",
-    format: "iife",
+    dir: "./public",
+    entryFileNames: "[name].js",
+    format: "cjs",
   },
 });

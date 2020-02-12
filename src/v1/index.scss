@@ -1,7 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+$browser-context: 16;
+
+@function em($pixels, $context: $browser-context) {
+  @return ($pixels / $context) * 1em;
+}
 
 @font-face {
   font-family: "Riffic";
@@ -76,14 +77,14 @@ a {
 .Header #logo {
   display: block;
   margin: 2em auto;
-  width: (366/16em);
+  width: em(366);
 }
 
 .Words {
   display: block;
   margin: 2em auto;
   width: 90%;
-  max-width: (850/(16*2)em);
+  max-width: em(850, 24);
   font-size: 2em;
   color: #D21E31;
   line-height: 1.25;
@@ -92,7 +93,7 @@ a {
   @media (min-width: 900px) {
     min-height: 4em;
     font-size: 3em;
-    max-width: (850/(16*3)em);
+    max-width: em(850, 16*3);
   }
 
   &.isRolling {
@@ -123,11 +124,6 @@ a {
 
 }
 
-// .Words-Word {
-//   float: left;
-//   padding: 0 1em;
-// }
-
 #roll {
   display: block;
   margin: 1em auto;
@@ -147,7 +143,7 @@ a {
 
 .Footer {
   margin: 3em auto;
-  max-width: (850/(16*1.5)em);
+  max-width: em(850/16*1.5);
   line-height: 1.45;
   text-align: center;
 }

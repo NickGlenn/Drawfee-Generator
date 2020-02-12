@@ -1,5 +1,5 @@
 import { h, Component } from "preact";
-import { LegacyView } from "./LegacyView";
+import { GeneratorView } from "./GeneratorView";
 
 type Props = {};
 
@@ -15,7 +15,7 @@ export class MainView extends Component<Props, State> {
    */
   public render() {
     return (
-      <LegacyView />
+      <GeneratorView />
     );
   }
 
