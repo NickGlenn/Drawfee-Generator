@@ -29,12 +29,13 @@
 }
 
 .GeneratorView-Result {
-  margin: 0 2rem;
-  padding: 0 0 7rem;
+  margin: 0 auto;
+  padding: 0 2rem 7rem;
   font-weight: 800;
   color: #9c0100;
   text-align: center;
   font-size: 6rem;
+  max-width: 80rem;
 }
 
 .GeneratorView > button {
