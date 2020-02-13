@@ -1,14 +1,17 @@
 import { h, Component } from "preact";
-import "./GeneratorView.scss";
 import { promptSound } from "../audio";
 import { pickRandom } from "../utils";
 import { descriptions, subjects, actions } from "../words";
+import "./Generator.scss";
 
-type Props = {};
+type Props = {
+  /** Called when the "show info" button is pressed. */
+  onInfoClick(): void;
+};
 
 type State = {
   /** When true, the retry button is hidden. */
-  disabled: boolean;
+  rolling: boolean;
   /** Generated prompt for the user. */
   prompt: string;
 };
@@ -16,11 +19,11 @@ type State = {
 /**
  * This component renders the view for the generator itself.
  */
-export class GeneratorView extends Component<Props, State> {
+export class Generator extends Component<Props, State> {
 
   /** State for the view. */
   public state: State = {
-    disabled: true,
+    rolling: true,
     prompt: "_",
   };
 
@@ -37,7 +40,7 @@ export class GeneratorView extends Component<Props, State> {
   private roll = (ev?: MouseEvent) => {
     ev?.preventDefault();
 
-    this.setState({ disabled: true });
+    this.setState({ rolling: true });
 
     setTimeout(() => {
       const result = [
@@ -50,28 +53,42 @@ export class GeneratorView extends Component<Props, State> {
 
       this.setState({
         prompt: result,
-        disabled: false,
+        rolling: false,
       });
     }, 1000);
   }
 
   /**
+   * Handles the event click for show info.
+   */
+  private handleShowInfoClick = (ev: MouseEvent) => {
+    ev.preventDefault();
+    this.props.onInfoClick();
+  }
+
+  /**
    * Renders the component.
    */
-  public render({ }: Props, { prompt, disabled }: State) {
-    const style = { opacity: (disabled ? 0 : 1) };
+  public render({ }: Props, { prompt, rolling }: State) {
+    let classes = "Generator";
+    if (rolling) { classes += " isRolling"; }
 
     return (
-      <div class="GeneratorView">
-        <header className="GeneratorView-Banner">
+      <div class={classes}>
+        <header className="Generator-Banner">
           Your Prompt
         </header>
-        <section className="GeneratorView-Result" style={style}>
+        <section className="Generator-Result">
           {prompt}
         </section>
-        <button disabled={disabled} onClick={this.roll}>
-          I want another one
-        </button>
+        <footer className="Generator-Footer">
+          <button disabled={rolling} onClick={this.roll}>
+            I want another one
+          </button>
+          <button onClick={this.handleShowInfoClick}>
+            More
+          </button>
+        </footer>
       </div>
     );
   }
