@@ -17,7 +17,9 @@
   "devDependencies": {
     "@helpfulhuman/tslint-rules": "^1.0.0",
     "@nickglenn/frontend-config": "^0.2.3",
+    "@types/indefinite": "^2.3.0",
     "@types/jest": "^25.1.2",
+    "@types/pluralize": "0.0.29",
     "browser-sync": "^2.23.6",
     "jest": "^25.1.0",
     "npm-run-all": "^4.1.5",
@@ -46,5 +48,11 @@
       "json",
       "node"
     ]
+  },
+  "dependencies": {
+    "array-flatten": "^3.0.0",
+    "indefinite": "^2.3.1",
+    "pluralize": "^8.0.0",
+    "tensify": "0.0.4"
   }
 }

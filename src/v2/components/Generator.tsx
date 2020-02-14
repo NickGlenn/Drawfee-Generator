@@ -1,7 +1,6 @@
 import { h, Component } from "preact";
 import { promptSound } from "../audio";
-import { pickRandom } from "../utils";
-import { descriptions, subjects, actions } from "../words";
+import { generate } from "../generator";
 import "./Generator.scss";
 
 type Props = {
@@ -10,6 +9,8 @@ type Props = {
 };
 
 type State = {
+  /** When true, the Drawfee prompt sound will play. */
+  playSound: boolean;
   /** When true, the retry button is hidden. */
   rolling: boolean;
   /** Generated prompt for the user. */
@@ -23,6 +24,7 @@ export class Generator extends Component<Props, State> {
 
   /** State for the view. */
   public state: State = {
+    playSound: true,
     rolling: true,
     prompt: "_",
   };
@@ -43,19 +45,26 @@ export class Generator extends Component<Props, State> {
     this.setState({ rolling: true });
 
     setTimeout(() => {
-      const result = [
-        pickRandom(descriptions),
-        pickRandom(subjects),
-        pickRandom(actions),
-      ].join(" ");
+      const result = generate();
 
-      promptSound.play();
+      if (this.state.playSound) {
+        promptSound.play();
+      }
 
       this.setState({
         prompt: result,
         rolling: false,
       });
     }, 1000);
+  }
+
+  /**
+   * Toggles sounds on and off.
+   */
+  private toggleSound = (ev: MouseEvent) => {
+    ev.preventDefault();
+    const playSound = !this.state.playSound;
+    this.setState({ playSound });
   }
 
   /**
@@ -69,7 +78,7 @@ export class Generator extends Component<Props, State> {
   /**
    * Renders the component.
    */
-  public render({ }: Props, { prompt, rolling }: State) {
+  public render({ }: Props, { prompt, rolling, playSound }: State) {
     let classes = "Generator";
     if (rolling) { classes += " isRolling"; }
 
@@ -84,6 +93,9 @@ export class Generator extends Component<Props, State> {
         <footer className="Generator-Footer">
           <button disabled={rolling} onClick={this.roll}>
             I want another one
+          </button>
+          <button onClick={this.toggleSound}>
+            Sounds: {playSound ? "ON" : "OFF"}
           </button>
           <button onClick={this.handleShowInfoClick}>
             More

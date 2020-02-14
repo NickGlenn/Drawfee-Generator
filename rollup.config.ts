@@ -10,4 +10,5 @@ module.exports = config({
     entryFileNames: "[name].js",
     format: "cjs",
   },
+  missingExports: ["pluralize"],
 });
