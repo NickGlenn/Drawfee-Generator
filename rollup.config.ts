@@ -11,4 +11,5 @@ module.exports = config({
     format: "cjs",
   },
   missingExports: ["pluralize"],
+  minify: true,
 });
