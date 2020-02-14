@@ -1,28 +1,58 @@
 {
-  "name": "drawfeeroulette",
-  "version": "1.0.0",
+  "name": "drawfee-generator",
+  "private": true,
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run watch:scripts | npm run watch:styles | npm run dev:server",
-    "dev:server": "browser-sync start --config bs.config.js",
-    "build:scripts": "rollup -c",
-    "watch:scripts": "npm run build:scripts -- --watch",
-    "build:styles": "stylus src/index.styl --out public/app.css",
-    "watch:styles": "npm run build:styles -- --watch --sourcemap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm-run-all -p watch browser",
+    "build": "rollup -c rollup.config.ts",
+    "watch": "npm run build -- --watch",
+    "browser": "browser-sync start -c bs.config.js",
+    "lint": "tslint -p .",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@helpfulhuman/tslint-rules": "^1.0.0",
+    "@nickglenn/frontend-config": "^0.2.3",
+    "@types/indefinite": "^2.3.0",
+    "@types/jest": "^25.1.2",
+    "@types/pluralize": "0.0.29",
     "browser-sync": "^2.23.6",
-    "rollup": "^0.56.2",
-    "rollup-plugin-commonjs": "^8.3.0",
-    "rollup-plugin-node-resolve": "^3.0.3",
-    "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.11.1",
-    "rollup-watch": "^4.3.1",
-    "stylus": "^0.54.5",
-    "typescript": "^2.7.2"
+    "jest": "^25.1.0",
+    "npm-run-all": "^4.1.5",
+    "preact": "^10.3.1",
+    "sass": "^1.25.0",
+    "ts-jest": "^25.2.0",
+    "tslint": "^6.0.0"
+  },
+  "typings": "./public/site.d.ts",
+  "jest": {
+    "testEnvironment": "node",
+    "notify": false,
+    "silent": true,
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "testRegex": ".test\\.tsx?$",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "array-flatten": "^3.0.0",
+    "indefinite": "^2.3.1",
+    "pluralize": "^8.0.0",
+    "tensify": "0.0.4"
   }
 }
