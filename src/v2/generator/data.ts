@@ -8,6 +8,7 @@ export const templates = [
   "{character} gobbling down a whole buncha {foods}",
   "{person} eating {foods} with {person}, but one of them isn't having a good time",
   "{character} winning {a} {food} eating contest",
+  "{person} hosting Saturday Night Live until {character} comes in and just steals the show",
   // "{person}'s lesser known twin, "
   "{character} getting {attacked} by {character}",
   "{character} playing with {a} {2:adjective} {toy}",
@@ -20,7 +21,7 @@ export const templates = [
   "{character} {attacking} NPCs in {video_game}",
   "{character} drawing {adjective} anime",
   "{character} drawing characters from {anime|video_game|cartoon} poorly",
-  "{character} doing the jitterbug",
+  "{character} doing the jitterbug and everyone loves it",
   "{character} decorating a bedroom for {character}",
   "{character} smoking potpourri",
   "{character} traveling back in time",
@@ -31,12 +32,11 @@ export const templates = [
   "{character} contemplating their very existence",
   "{character} questioning whether any of this is real... like, actually real",
   "{character} karate chopping people in the throat",
-  "{character} running in reverse",
+  "{character} running in reverse AND slow motion",
   "{character} shouting insults at strangers",
   "{character} burninating the peasants",
   "{character} burninating all the people",
-  "{character} handling a barrage of insults like a pro",
-  "{character} answering life's most important questions",
+  "{character} answering life's most {adjective} questions",
   "{character} performing unspeakable acts",
   "{character} eating hands",
   "{character} killing zombies",
@@ -72,7 +72,7 @@ export const templates = [
   "{character} getting a skeezy feel up",
   "{character} playing \"Wonderwall\" on their guitar like an absolute douche",
   "{character} wishing you a Merry Christmas, but there's a \"war on Christmas\"",
-  "{character} pushing it to the limit... and something broke",
+  "{character} pushing it to the limit... and then something broke",
   "{character} drop kicking a Papa Murphy's pizza while listening to the \"Dropkick Murphys\"",
   "{character} browsing 4chan and coming to understand what depravity actually is",
   "{character} performing {a} {1:adjective} musical rendition of {movie|tv_show}",
@@ -310,6 +310,10 @@ export const adjectives = [
   "slimy",
   "singing",
   "rapping",
+  "important",
+  "corrupt",
+  "forgiving",
+  "eager",
 ];
 
 export const colors = [
@@ -434,6 +438,11 @@ export const tvShows = [
   "X-Files",
   "{person}'s new cooking show",
   "Power Rangers",
+  "Drawfee",
+  "Community",
+  "Buffy the Vampire Slayer",
+  "Sabrina the Teenage Witch",
+  "Saturday Night Live",
 ];
 
 export const videoGames = [

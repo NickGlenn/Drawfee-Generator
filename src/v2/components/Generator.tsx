@@ -24,7 +24,7 @@ export class Generator extends Component<Props, State> {
 
   /** State for the view. */
   public state: State = {
-    playSound: true,
+    playSound: (localStorage.getItem("drawfeegen:enable_sounds") !== "false"),
     rolling: true,
     prompt: "_",
   };
@@ -64,6 +64,7 @@ export class Generator extends Component<Props, State> {
   private toggleSound = (ev: MouseEvent) => {
     ev.preventDefault();
     const playSound = !this.state.playSound;
+    localStorage.setItem("drawfeegen:enable_sounds", playSound ? "true" : "false");
     this.setState({ playSound });
   }
 
