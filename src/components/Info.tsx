@@ -1,12 +1,12 @@
-import { h, Component } from "preact";
-import "./Info.scss";
+import { h, Component } from "preact"
+import "./Info.scss"
 
 type Props = {
   /** Determines whether or not this component should be showing. */
   show: boolean;
   /** Called when the info panel is dismissed. */
   onDismiss(): void;
-};
+}
 
 /**
  * This component displays information about the site and provides a link to the original version.
@@ -17,8 +17,8 @@ export class Info extends Component<Props> {
    * Renders the component.
    */
   public render({ show, onDismiss }: Props) {
-    let classes = "Info";
-    if (show) { classes += " isShowing"; }
+    let classes = "Info"
+    if (show) { classes += " isShowing" }
 
     return (
       <div className={classes}>
@@ -29,7 +29,7 @@ export class Info extends Component<Props> {
           </p>
           <hr />
           <p>
-            This tool was created for the fans of <a href="https://www.youtube.com/drawfee" target="_blank">Drawfee</a>, and the <a href="/v1">original version</a> was even featured in 2 different episodes.
+            This tool was created for the fans of <a href="https://www.youtube.com/drawfee" target="_blank">Drawfee</a>, and the <a href="/v1">original version</a> was even featured in 2 different episodes. The original version stated how many combinations there were, because the math was easy, but this version uses a more complex solution for generation with nested resolvers for placeholder replacement.
           </p>
           <div className="Info-Thumbnails">
             <a href="https://www.youtube.com/watch?v=P-mrh3qei0Y" target="_blank">
@@ -45,7 +45,7 @@ export class Info extends Component<Props> {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
 }

@@ -1,3 +1,7 @@
 {
-  "extends": "@helpfulhuman/tslint-rules"
+  "extends": "@helpfulhuman/tslint-rules",
+  "rules": {
+    "semicolon": [true, "never"],
+    "curly": false
+  }
 }
