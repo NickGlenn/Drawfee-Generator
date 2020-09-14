@@ -2,13 +2,13 @@
  * Creates an array of a set length, filling in each value using the given function.
  */
 export function fill<T>(length: number, fn: (values: T[], index: number) => T): T[] {
-  let output: T[] = [];
+  let output: T[] = []
 
   for (let i = 0; i < length; i++) {
-    output.push(fn(output, i));
+    output.push(fn(output, i))
   }
 
-  return output;
+  return output
 }
 
 /**
@@ -17,12 +17,12 @@ export function fill<T>(length: number, fn: (values: T[], index: number) => T): 
  */
 export function fillUnique<T>(length: number, fn: (values: T[], index: number) => T): T[] {
   return fill(length, (values, index) => {
-    let candidate: T;
+    let candidate: T
     do {
-      candidate = fn(values, index);
-    } while (values.includes(candidate));
-    return candidate;
-  });
+      candidate = fn(values, index)
+    } while (values.includes(candidate))
+    return candidate
+  })
 }
 
 /**
@@ -31,18 +31,18 @@ export function fillUnique<T>(length: number, fn: (values: T[], index: number) =
 export function oxford(words: string[]): string {
   switch (words.length) {
     case 0:
-      return "";
+      return ""
     case 1:
-      return words[0];
+      return words[0]
     case 2:
-      return `${words[0]} and ${words[1]}`;
+      return `${words[0]} and ${words[1]}`
     default:
-      let output = "";
+      let output = ""
       for (let i = 0; i < words.length; i++) {
-        let prefix = (i === words.length - 1 ? ", and " : ", ");
-        output += prefix + words[i];
+        let prefix = (i === words.length - 1 ? ", and " : ", ")
+        output += prefix + words[i]
       }
-      return output;
+      return output
   }
 }
 
@@ -50,5 +50,19 @@ export function oxford(words: string[]): string {
  * Capitalizes the first letter of the given string.
  */
 export function capitalize(str: string): string {
-  return str.charAt(0).toUpperCase() + str.slice(1);
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
+/**
+ * Picks a random item from an array.
+ */
+export function pickRandom<T>(items: T[]): T {
+  return items[Math.floor(Math.random() * items.length)]
+}
+
+/**
+ * Linearly interpolates between the given values.
+ */
+export function lerp(a: number, b: number, t: number): number {
+  return a * (1 - t) + b * t
 }

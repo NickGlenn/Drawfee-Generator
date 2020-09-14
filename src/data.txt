@@ -1,0 +1,651 @@
+[template]
+{character}, but in the style of {cartoon|anime|video game}
+{character} but as {a} {video game} boss
+{character} getting hit in the {body part} approximately {10-10000} times
+{person} being stalked by {character}, but they're cool with it
+{character} appearing on an episode of {tv show|cartoon|anime}
+{property} but now there's {character} and the plot stopped making sense
+{character} having no fun at all while participating in {activity}
+{character} gobbling down a whole buncha {food}s
+{person} eating {food}s with {person}, but one of them isn't having a good time
+{character} winning {a} {food} eating contest
+{person} hosting Saturday Night Live until {character} comes in and just steals the show
+{character} getting {attack}ed by {character}
+{character} playing with {a} {adjective} {toy}
+{character} {attack}ing Hitler in his stupid, facist face
+the latest {video game|video game company} game being presented at E3 by {character}
+{character} attacking {character} with dual uzis
+{character} starting their own {place}, but with Blackjack! And Hookers!
+{character} dropping the sickest of beats
+{character} {exaggeration} slaying at guitar
+{character} {attack}ing NPCs in {video game}
+{character} drawing {adjective} anime
+{character} drawing characters from {property} poorly
+{character} doing the {dance} and everyone loves it
+{character} doing the {dance}, but noone notices
+{character} doing the {dance} and everyone is uncomfortable
+{character} decorating a bedroom for {character}
+{a} {adjective} {group} of {occupation|creature|food}s smoking potpourri
+{character} traveling back in time
+{character} jumping the non-proverbial shark... just like Fonzy!
+{character} lighting fires
+{character} binge-watching {tv show|cartoon|anime} on Netflix
+{character} conducting evil experiments in the name of SCIENCE
+{character} contemplating their very existence
+{character} questioning whether any of this is real... like, actually real
+{character} karate chopping people in the throat
+{character} running in reverse AND slow motion
+{character} shouting insults at strangers
+{character} burninating the peasants
+{character} burninating all the people
+{character} answering life's most {adjective} questions
+{character} performing unspeakable acts
+{character} eating hands
+{character} killing zombies
+{character} punching {fascist} right in his stupid, facist face
+{character} colluding with Russia
+{character} piloting a giant, cybernetic suit
+{character} hacking all of the government's secrets
+{character} thinking about their childhood sled while on their deathbed
+{character} {exaggeration} killing a guy named "Bill"
+{character} leading the police on an extremely slow car chase
+{character} laughing at someone's inability to draw {anime|cartoon|video game} from memory
+{character} striking an unflattering pose
+{character} in {a} {adjective} {dance} class and people won't stop looking
+{character} but as a cybernetic warrior, with nunjucks... and laser beams!
+{character} speaking in wingdings
+{character} being forced to watch the Emoji Movie over and over and over
+{character} singing, "BELIEVE IT OR NOT, I'M WALKING ON AIR, I NEVER THOUGHT I WOULD FEEL SO FREE-EE-EEEEEE" as loud as they can
+{character} going through TSA security
+{character} waiting in line at the DMV
+{character} but as {a} {adjective} comic book character
+{character} as an early 1900s cartoon character
+{character} aggressively doing the {dance}
+{character} performing magic tricks... for adults
+{character} drawing inappropriate pictures as a form of vandalism
+{character} playing a VR game while throwing up absolutely everywhere
+{character} cheating at {activity}
+{character} absolutely failing at being cool
+{character} flexing their muscles and showin’ off their sweet, sweet bod
+{character} going on vacation but it's awful
+{character} acting out some terrible {property} fan-fiction that they wrote
+{character} ruining absolutely everything for everyone
+{character} listening to MACINTOSH PLUS - リサフランク420 / 現代のコンピュー
+{character} getting a skeezy feel up
+{character} playing "Wonderwall" on their guitar like an absolute douche
+{character} wishing you a Merry Christmas, but there's a "war on Christmas"
+{character} pushing it to the limit... and then something broke
+{character} drop kicking a Papa Murphy's pizza while listening to the "Dropkick Murphys"
+{character} browsing 4chan and coming to understand what depravity actually is
+{character} performing {a} {adjective} musical rendition of {movie|tv show}
+{character} vaping while wearing a fedora (a winning combination)
+{character} facing themselves in the mirror... like... their REAL self
+{character} revealing their final form
+{character} failing to read the room in a tense and awkward situation
+{character} preparing a dish for Gordon Ramsey but IT'S F*&%ING RAW
+
+
+[character]
+=superhero
+=supervillian
+=person
+{a} character from {property}
+{a} {creature}
+{a} {adjective} {creature|person|superhero|supervillian}
+{a} {exaggeration} {adjective} {creature|person|superhero|supervillian}
+
+[property]
+=video game
+=movie
+=tv show
+=cartoon
+
+[superhero]
+Batman
+Robin
+Deadpool
+Wolverine
+Iron Man
+Spider-Man
+Black Panther
+The Hulk
+Ant Man
+Thor
+Tony Stark
+Bruce Banner
+Black Widow
+Bat Girl
+
+[supervillian]
+Joker
+Bane
+Thanos
+The Riddler
+Two-Face
+Mysterio
+Green Goblin
+
+[company]
+=video game company
+=tech company
+=film company
+
+[film company]
+Warner Bros
+Disney
+21st Century Fox
+
+[tech company]
+Google
+Microsoft
+Apple
+Uber
+DoorDash
+Spotify
+Facebook
+Lyft
+Tesla
+IBM
+
+[place]
+party
+casino
+bingo hall
+museum
+aquarium
+department of motor vehicles
+grocery store
+warehouse
+clothing store
+mall
+{food} stand
+{food} restaurant
+toy store
+White House
+Showroom
+pub
+dungeon
+basement
+
+[activity]
+football
+soccer
+baseball
+foosball
+tennis
+ping pong
+golf
+board game
+Dungeons & Dragons
+chess
+video game
+
+[dance]
+macarena
+jitterbug
+cha cha slide
+electric shuffle
+charleston
+tango
+Carlton
+
+[animal]
+otter
+weasel
+lion
+cougar
+bear
+t-rex
+stoat
+ferret
+badger
+doggo
+puppo
+gopher
+penguin
+sloth
+spider
+scorpion
+ant
+flea
+parrot
+kangaroo
+koala
+velociraptor
+
+[food]
+pizza
+hot dog
+glizzy
+sausage
+pancake
+hamburger
+sushi roll
+falafel
+bagel
+noodles
+ramen
+mac n’ cheese
+eggplant
+
+[creature]
+=animal
+=monster
+anthropomorphic peanut
+brave little toaster
+robot
+android
+cyborg
+bird-person
+hobbit
+monster
+elf
+orc
+goblin
+gelfling
+skeksi
+
+[monster]
+monster
+dragon
+zombie
+vampire
+werewolf
+demogorgon
+ghoul
+ghost
+
+[toy]
+Furby
+Teddy Ruxpin
+Transformer
+Lego Figurine
+Polly Pocket
+Barbie doll
+Ken doll
+GI Joe
+
+[body part]
+throat
+face
+hands
+legs
+knee caps
+elbows
+baby maker
+chest
+boobal region
+chesticles
+
+[fascist]
+Adolf Hitler
+Donald Trump
+
+[attack]
+punch
+kick
+roundhouse kick
+falcon punch
+one punch
+pummel
+dropkick
+attack
+assault
+backhand
+slap
+
+[exaggeration]
+very
+radically
+overwhelmingly
+abundantly
+aggressively
+absolutely
+obnoxiously
+epicly
+extremely
+overly
+
+[insult]
+fat
+stupid
+dumb
+idiotic
+racist
+cocky
+ignorant
+cruel
+douchey
+jerky
+irritating
+frustrating
+moronic
+simpleminded
+
+[adjective]
+anxious
+jealous
+crafty
+amused
+bored
+dying
+wealthy
+magical
+radical
+cunning
+mean
+cruel
+angry
+jovial
+happy
+harsh
+agitated
+woeful
+depressed
+cranky
+miserable
+disgruntled
+grand
+wonderful
+whimsical
+majestic
+royal
+mutated
+disfigured
+crippled
+broken
+homeless
+sick
+dying
+demented
+awkward
+busty
+chubby
+inappropriately dressed
+radical
+extreme
+tubular
+lazy
+snazzy
+lonely
+obnoxious
+adorable
+wild
+psychic
+telepathic
+all-powerful
+smooth-talking
+fast-talking
+horrific
+huge
+tiny
+gelatinous
+gooey
+slimy
+singing
+rapping
+important
+corrupt
+forgiving
+eager
+
+[color]
+black
+white
+rainbow
+green
+blue
+red
+pink
+purple
+magenta
+cyan
+yellow
+orange
+brown
+beige
+tan
+neon
+pastel
+eggshell
+
+[occupation]
+person
+scientist
+rock star
+professor
+baby
+politician
+president
+United States President
+chef
+king
+queen
+criminal
+thief
+student
+martial artist
+historical figure
+pirate
+knight
+caveman
+ninja
+samurai
+wizard
+boomer
+head school master
+teacher
+programmer
+designer
+artist
+musician
+senator
+Democrat
+Republican
+handyman
+electrician
+
+[group]
+group
+murder
+pack
+herd
+flock
+school
+pride
+gathering
+
+[anime]
+Dragonball Z
+Attack on Titan
+One Punch Man
+One Piece
+Naruto
+My Hero Academia
+Poke'mon
+Digimon
+Rurouni Kenshin
+Yu Yu Hakusho
+Hunter x Hunter
+Inuyasha
+Ghost in the Shell
+Deathnote
+Claymore
+Initial D
+
+[cartoon]
+=anime
+Lloyd in Space
+Dexter's Lab
+Powerpuff Girls
+Cow & Chicken
+Ren & Stimpy
+Johnny Bravo
+Courage the Cowardly Dog
+Aqua Teen Hunger Force
+Sealab 2021
+Rick & Morty
+Flintstones
+Family Guy
+Simpsons
+Rugrats
+Spongebob Squarepants
+Star Wars: The Clone Wars
+Courage the Cowardly Dog
+Samurai Jack
+Adventure Time
+Regular Show
+Amazing World of Gumball
+
+[movie]
+Star Wars
+Matrix
+Pee Wee's Big Adventure
+Beetlejuice
+Harry Potter
+Star Wars Episode 1: The Phantom Menace
+Spider-Man
+The Nightmare Before Christmas
+Pirates of the Caribbean
+Star Trek
+Gladiator
+Titanic
+Bridge on the River Kwai
+
+[tv show]
+Friends
+How I Met Your Mother
+Stranger Things
+Robot Chicken
+IT Crowd
+The Office
+X-Files
+{person}'s new cooking show
+Power Rangers
+Drawfee
+Community
+Buffy the Vampire Slayer
+Sabrina the Teenage Witch
+Saturday Night Live
+Breaking Bad
+Narcos
+The Wire
+
+[video game]
+Sonic the Hedgehog
+Super Mario
+Legend of Zelda
+Dark Souls
+Banjo-Kazooie
+Call of Duty
+Titanfall
+Halo
+Overwatch
+World of Warcraft
+Fallout
+Apex Legends
+Rainbow Six
+Counter Strike
+Team Fortress
+Poke'mon
+Minecraft
+Fortnite
+Unreal Tournament
+Gears of War
+Starcraft
+Hitman
+Star Fox
+Metroid
+Silent Hill
+Resident Evil
+Assassin's Creed
+Dying Light
+
+[video game company]
+Nintendo
+Sony
+X-Box
+Naughty Dog
+Hideo Kojima
+Sega
+Electronic Arts
+Double Fine
+Ubisoft
+Bethesda
+Bungie
+CD Projekt Red
+Rareware
+
+[drawfee artist]
+Nathan Yaffe
+Caldwell Tanner
+Jacob Andrews
+Julita Lepetit
+Karina Farek
+
+[artist]
+=drawfee artist
+
+[person]
+=drawfee artist
+Karain Farek
+Nick Glenn
+Keanu Reeves
+Julia Andrews
+Dwayne "The Rock" Johnson
+Hulk Hogan
+Johnny Depp
+Bill Gates
+Steve Jobs
+Arnold Schwarzenegger
+Jim Carrey
+Emma Watson
+Daniel Radcliffe
+Leonardo DiCaprio
+Tom Cruise
+Brad Pitt
+Morgan Freeman
+Matt Damon
+Tom Hanks
+Sylvester Stallone
+Will Smith
+Cameron Diaz
+Clint Eastwood
+George Clooney
+Steven Spielberg
+Harrison Ford
+Mark Hammil
+Robert De Niro
+Al Pacino
+Robert Downey Jr.
+Russell Crowe
+Liam Neeson
+Kate Winslet
+Mark Wahlberg
+Natalie Portman
+Pierce Brosnan
+Sean Connery
+Orlando Bloom
+Jackie Chan
+Angelina Jolie
+Adam Sandler
+Scarlett Johansson
+Heath Ledger
+Anne Hathaway
+Jessica Alba
+Kiera Knightly
+Bradley Cooper
+Will Ferrel
+Nicolas Cage
+Daniel Craig
+Ian McKellen
+Bruce Willis
+Samuel L Jackson
+Ben Stiller
+Tommy Lee Jones
+Steve Carell
+Shia LaBeouf
+Megan Fox
+James Franco
+Mel Gibson
+Vin Diesel

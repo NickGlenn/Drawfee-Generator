@@ -1,13 +1,13 @@
-import { h, Component } from "preact";
-import { Generator } from "../components/Generator";
-import { Info } from "../components/Info";
+import { h, Component } from "preact"
+import { Generator } from "./Generator"
+import { Info } from "./Info"
 
-type Props = {};
+type Props = {}
 
 type State = {
   /** Determines whether or not the info panel should be showing. */
   showingInfo: boolean;
-};
+}
 
 /**
  * The root view for the application.
@@ -17,17 +17,17 @@ export class MainView extends Component<Props, State> {
   /** The state of the component. */
   public state: State = {
     showingInfo: false,
-  };
+  }
 
   /**
    * Shows the info component.
    */
-  private showInfo = () => this.setState({ showingInfo: true });
+  private showInfo = () => this.setState({ showingInfo: true })
 
   /**
    * Hides the info component.
    */
-  private hideInfo = () => this.setState({ showingInfo: false });
+  private hideInfo = () => this.setState({ showingInfo: false })
 
   /**
    * Renders the component.
@@ -38,7 +38,7 @@ export class MainView extends Component<Props, State> {
         <Generator onInfoClick={this.showInfo} />
         <Info show={showingInfo} onDismiss={this.hideInfo} />
       </div>
-    );
+    )
   }
 
 }

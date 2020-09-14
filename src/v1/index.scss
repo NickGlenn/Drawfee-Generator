@@ -6,10 +6,10 @@ $browser-context: 16;
 
 @font-face {
   font-family: "Riffic";
-    src:  url("font/Riffic.ttf.woff") format("woff"),
-    url("font/Riffic.ttf.svg#Riffic") format("svg"),
-    url("font/Riffic.ttf.eot"),
-    url("font/Riffic.eot?#iefix") format("embedded-opentype");
+    src:  url("./font/Riffic.ttf.woff") format("woff"),
+    url("./font/Riffic.ttf.svg#Riffic") format("svg"),
+    url("./font/Riffic.ttf.eot"),
+    url("./font/Riffic.eot?#iefix") format("embedded-opentype");
     font-weight: normal;
     font-style: normal;
 }

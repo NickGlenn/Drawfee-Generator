@@ -5,3 +5,5 @@ public/*.js
 public/*.map
 **/*.log
 !public/v1.css
+.cache/
+dist/

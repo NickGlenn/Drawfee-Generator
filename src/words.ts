@@ -52,7 +52,7 @@ export const descriptions = [
   "A slimy",
   "A singing",
   "A rapping",
-];
+]
 
 export const subjects = [
   "otter",
@@ -123,7 +123,7 @@ export const subjects = [
   "zombie",
   "vampire",
   "werewolf",
-];
+]
 
 export const actions = [
   "with a keytar",
@@ -203,4 +203,4 @@ export const actions = [
   "turning into their final form",
   "failing to read the room in a tense and awkward situation",
   "preparing a dish for Gordon Ramsey but IT'S F*&%ING RAW",
-];
+]
