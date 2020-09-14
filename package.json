@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "array-flatten": "^3.0.0",
-    "indefinite": "^2.3.2",
+    "indefinite": "^2.4.1",
     "pluralize": "^8.0.0",
     "tensify": "0.0.4"
   }
