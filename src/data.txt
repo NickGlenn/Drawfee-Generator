@@ -83,7 +83,9 @@ the latest {video game|video game company} game being presented at E3 by {charac
 {character} revealing their final form
 {character} failing to read the room in a tense and awkward situation
 {character} preparing a dish for Gordon Ramsey but IT'S F*&%ING RAW
-
+2020. Like, the year. Pick anything. Lucky you.
+{character} walking in on {character}, but it's terrible timing
+{character} in {film company}'s latest film, but it's a reboot of a prequel to another film
 
 [character]
 =superhero
