@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/**/*.html --out-dir dist",
+    "build": "parcel build ./src/index.html ./src/v1/index.html --out-dir dist",
     "lint": "tslint -p .",
     "test": "jest"
   },
