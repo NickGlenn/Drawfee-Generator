@@ -33,10 +33,10 @@ export class Info extends Component<Props> {
           </p>
           <div className="Info-Thumbnails">
             <a href="https://www.youtube.com/watch?v=P-mrh3qei0Y" target="_blank">
-              <img src="http://i3.ytimg.com/vi/P-mrh3qei0Y/hqdefault.jpg" alt="Random Drawing Generator Challenge" />
+              <img src="https://i3.ytimg.com/vi/P-mrh3qei0Y/hqdefault.jpg" alt="Random Drawing Generator Challenge" />
             </a>
             <a href="https://www.youtube.com/watch?v=45QWowjFodI" target="_blank">
-              <img src="http://i3.ytimg.com/vi/45QWowjFodI/hqdefault.jpg" alt="More Randomly Generated Drawing Challenges" />
+              <img src="https://i3.ytimg.com/vi/45QWowjFodI/hqdefault.jpg" alt="More Randomly Generated Drawing Challenges" />
             </a>
           </div>
           <hr />
